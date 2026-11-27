@@ -2,12 +2,12 @@
 
 Unofficial K4RJM firmware and Windows CPS for the AnyTone AT-D868UV.
 
-**Firmware compatibility warning.** Use 2.43 only on an AT-D868UV with hardware version **1.10**. Before flashing, visually verify both part numbers printed on the chips inside your own radio:
+**Firmware compatibility warning.** A stock AT-D868UV must have **hardware version 1.1 (shown as 1.10)** and be **running factory firmware 2.40** before conversion. Before flashing, visually verify both part numbers printed on the chips inside your own radio:
 
 - **GigaDevice GD32F303VGT6** — main processor
 - **Toshiba TC58CVG0S3HRAIG** — external NAND flash
 
-The hardware version shown on the screen alone cannot identify those chips. If either marking differs, is unreadable, or has not been checked, **do not flash this firmware**. An incompatible image can leave the radio unable to boot.
+The hardware version shown on the screen alone cannot identify those chips. If either prerequisite is unmet or either chip marking cannot be matched, **do not flash this firmware**. An incompatible image can leave the radio unable to boot.
 
 **[Download the 2.43 Windows CPS installer and radio firmware (ZIP)](https://github.com/K4RJM/D868UV-Enhanced/releases/download/v2.43/D868UV-Enhanced-2.43.zip)**
 
